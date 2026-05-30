@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "default",
+      "displayName": "Default (vcpkg + Ninja)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build",
+      "toolchainFile": "/Users/antoine/dev/vcpkg/scripts/buildsystems/vcpkg.cmake"
+    }
+  ]
+}
